@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fc7cc92e60dde304bbbd3d818bb2aed9
+guid: 8b6ff674ba7c332489c084f8e97d85e1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -130,13 +130,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle-Anim_0
+      name: Strike-Anim_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 351
-        width: 33
-        height: 33
+        x: 24
+        y: 534
+        width: 22
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,20 +144,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61a960d15061da74eab667f6c429bb8e
-      internalID: 891569521
+      spriteID: 11849f4a3c668a74b89e413829fddeee
+      internalID: 1743136059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_1
+      name: Strike-Anim_1
       rect:
         serializedVersion: 2
-        x: 43
-        y: 351
-        width: 33
-        height: 33
+        x: 95
+        y: 537
+        width: 25
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,20 +165,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f8ddb522251fa24ba7a703f1bf0773f
-      internalID: -794848163
+      spriteID: d5ddb373c6713f442b61b623b4028f5e
+      internalID: 1404292300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_2
+      name: Strike-Anim_2
       rect:
         serializedVersion: 2
-        x: 83
-        y: 351
-        width: 33
-        height: 33
+        x: 170
+        y: 538
+        width: 20
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,20 +186,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb1eb4f6dd855ba4583b881d71dd5574
-      internalID: -1624157276
+      spriteID: 0c92ec2599e06e0488e17849de47cd7a
+      internalID: 2010487364
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_3
+      name: Strike-Anim_3
       rect:
         serializedVersion: 2
-        x: 123
-        y: 351
-        width: 33
-        height: 33
+        x: 242
+        y: 536
+        width: 20
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,20 +207,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edc6217ec97b9db4d92b7f43d876d381
-      internalID: -351163570
+      spriteID: 4e52e36226fa77c41aa0cc997f24232b
+      internalID: 1529689892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_4
+      name: Strike-Anim_4
       rect:
         serializedVersion: 2
-        x: 163
-        y: 351
-        width: 33
-        height: 33
+        x: 313
+        y: 521
+        width: 25
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,20 +228,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c335d9bd88d2d5e40b91fdfcfb0b7955
-      internalID: 1650114187
+      spriteID: 39a1fff4eb1f519409e73cea05baa64d
+      internalID: -1338870351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_5
+      name: Strike-Anim_5
       rect:
         serializedVersion: 2
-        x: 203
-        y: 351
-        width: 33
-        height: 33
+        x: 385
+        y: 513
+        width: 25
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,20 +249,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bc5655b2c9bd6b4391dc933e6f4d1c8
-      internalID: 1346418347
+      spriteID: 56dc74eb8d5c95b4f8d2520bb7e35c7f
+      internalID: -1675681447
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_6
+      name: Strike-Anim_6
       rect:
         serializedVersion: 2
-        x: 243
-        y: 351
-        width: 33
-        height: 33
+        x: 460
+        y: 513
+        width: 23
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,20 +270,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b40bd910a2062140981031de0c0c996
-      internalID: -399022460
+      spriteID: 57c0c5d6929d89a428d4b13921948b7a
+      internalID: -2104928864
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_7
+      name: Strike-Anim_7
       rect:
         serializedVersion: 2
-        x: 283
-        y: 351
-        width: 33
-        height: 33
+        x: 531
+        y: 513
+        width: 23
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,20 +291,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abad65507280ccc4bbdf1fd8d1a65eb6
-      internalID: -1303845249
+      spriteID: 34452570458a7744d92fb1772703f0bb
+      internalID: 1168324080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_8
+      name: Strike-Anim_8
       rect:
         serializedVersion: 2
-        x: 323
-        y: 351
-        width: 33
-        height: 33
+        x: 604
+        y: 513
+        width: 23
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -312,20 +312,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6357dcea066acaa4a84e0e9720529e86
-      internalID: 1349214046
+      spriteID: f4722e93fafe676459455977335add55
+      internalID: -371505882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_9
+      name: Strike-Anim_9
       rect:
         serializedVersion: 2
-        x: 363
-        y: 351
-        width: 33
-        height: 33
+        x: 671
+        y: 528
+        width: 25
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -333,20 +333,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ddb7394a24bddb409fda8e0cb70c9c3
-      internalID: -610425748
+      spriteID: 565bee31e179efc40b6722e98502c3e7
+      internalID: -1449359489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_10
+      name: Strike-Anim_10
       rect:
         serializedVersion: 2
-        x: 3
-        y: 303
-        width: 33
-        height: 33
+        x: 23
+        y: 462
+        width: 21
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -354,20 +354,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2c7f964707b56d4a9c43ae4389fa6f9
-      internalID: 1043826025
+      spriteID: 5735539a75f61fd40bf12731ce901f8d
+      internalID: 406748714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_11
+      name: Strike-Anim_11
       rect:
         serializedVersion: 2
-        x: 43
-        y: 303
-        width: 33
-        height: 33
+        x: 93
+        y: 466
+        width: 23
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -375,20 +375,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb8cdc8af10db34429497d97129d3025
-      internalID: 1655161451
+      spriteID: 20c7f7d3bdceaff4db00a71654cd155d
+      internalID: -1838062987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_12
+      name: Strike-Anim_12
       rect:
         serializedVersion: 2
-        x: 83
-        y: 303
-        width: 33
-        height: 33
+        x: 164
+        y: 467
+        width: 23
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -396,20 +396,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87f58539d93436745bdd3fc41f1485a9
-      internalID: 554925717
+      spriteID: 59a9e2fb100f38a429e847b261ad10db
+      internalID: 1279006540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_13
+      name: Strike-Anim_13
       rect:
         serializedVersion: 2
-        x: 123
-        y: 303
-        width: 33
-        height: 33
+        x: 238
+        y: 465
+        width: 23
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -417,20 +417,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e09b573c7c78b845beed549a9bfef08
-      internalID: 1031350348
+      spriteID: 1c50a9aa4eaab7647b2ddadb79cf56a8
+      internalID: 928871853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_14
+      name: Strike-Anim_14
       rect:
         serializedVersion: 2
-        x: 163
-        y: 303
+        x: 316
+        y: 454
         width: 33
-        height: 33
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -438,20 +438,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64a98006a02cc664f9a6fd9176fb6c32
-      internalID: 1094333384
+      spriteID: dff3b0f69704b3f40aed9d38d415db34
+      internalID: -1680603315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_15
+      name: Strike-Anim_15
       rect:
         serializedVersion: 2
-        x: 203
-        y: 303
+        x: 396
+        y: 446
         width: 33
-        height: 33
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,20 +459,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15dc40095a8d6fa429ac7ae5edf4a374
-      internalID: 1024950044
+      spriteID: 4607872478342654389b663ecc75f5cb
+      internalID: -1743934936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_16
+      name: Strike-Anim_16
       rect:
         serializedVersion: 2
-        x: 243
-        y: 303
-        width: 33
-        height: 33
+        x: 467
+        y: 446
+        width: 32
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -480,20 +480,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6628aaf337a88c4468f16ab377f01294
-      internalID: 1013212740
+      spriteID: 3caf950f78b635f478b9a32c75c6a905
+      internalID: 2010828652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_17
+      name: Strike-Anim_17
       rect:
         serializedVersion: 2
-        x: 283
-        y: 303
-        width: 33
-        height: 33
+        x: 540
+        y: 447
+        width: 32
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -501,20 +501,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6a74cda502e1544485bc5710082f103
-      internalID: 1209661363
+      spriteID: def2d46cbc824c84d93a01887efd1c82
+      internalID: -2112525188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_18
+      name: Strike-Anim_18
       rect:
         serializedVersion: 2
-        x: 323
-        y: 303
-        width: 33
-        height: 33
+        x: 611
+        y: 446
+        width: 32
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -522,20 +522,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52602100723b4534fb573ac8f5523bbc
-      internalID: -1249064542
+      spriteID: 2a54588af09b9f5459cd74be39735c13
+      internalID: -1101465913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_19
+      name: Strike-Anim_19
       rect:
         serializedVersion: 2
-        x: 363
-        y: 303
-        width: 33
-        height: 33
+        x: 679
+        y: 455
+        width: 22
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -543,20 +543,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46a60bc7cdb2dd849a1674175643699b
-      internalID: 1168182632
+      spriteID: c6f653e181ed75a41870b56adacb563c
+      internalID: -1350884420
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_20
+      name: Strike-Anim_20
       rect:
         serializedVersion: 2
-        x: 3
-        y: 255
-        width: 33
-        height: 33
+        x: 25
+        y: 390
+        width: 19
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -564,20 +564,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fc3f555fa1ee084f9c1c337d0d1579c
-      internalID: -533325679
+      spriteID: a6670e721125c3e47beb347c82b9199a
+      internalID: 585210952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_21
+      name: Strike-Anim_21
       rect:
         serializedVersion: 2
-        x: 43
-        y: 255
-        width: 33
-        height: 33
+        x: 90
+        y: 390
+        width: 23
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -585,20 +585,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87e23bce964330c4083ee88928cd415c
-      internalID: 1282202011
+      spriteID: 1923a3c340607504d8e852dd90af1741
+      internalID: -1374315423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_22
+      name: Strike-Anim_22
       rect:
         serializedVersion: 2
-        x: 83
-        y: 255
-        width: 33
-        height: 33
+        x: 161
+        y: 390
+        width: 23
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -606,20 +606,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e9070aac0c993148a83a9e85eb9d8d3
-      internalID: -520608852
+      spriteID: 4c98230a719c7c248928af8cb338624f
+      internalID: -1190926680
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_23
+      name: Strike-Anim_23
       rect:
         serializedVersion: 2
-        x: 123
-        y: 255
-        width: 33
-        height: 33
+        x: 234
+        y: 390
+        width: 23
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -627,20 +627,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b87f6965a5b5d0646a8aa5d336179a60
-      internalID: 1423813480
+      spriteID: e76010890fb051949a3cb2a36c77879c
+      internalID: 422710669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_24
+      name: Strike-Anim_24
       rect:
         serializedVersion: 2
-        x: 163
-        y: 255
-        width: 33
-        height: 33
+        x: 315
+        y: 391
+        width: 37
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -648,20 +648,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd533b3b5998bf3419071c946b96f475
-      internalID: 745568594
+      spriteID: bfa5cf99fe8c1994ab6b44051b72d892
+      internalID: 336932755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_25
+      name: Strike-Anim_25
       rect:
         serializedVersion: 2
-        x: 203
-        y: 255
-        width: 33
-        height: 33
+        x: 390
+        y: 391
+        width: 37
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -669,20 +669,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13f3f8a76368a0646bb731ab48f74f22
-      internalID: 1303260961
+      spriteID: 0e3780430e249ba478c4e04582e28d2f
+      internalID: -292007181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_26
+      name: Strike-Anim_26
       rect:
         serializedVersion: 2
-        x: 243
-        y: 255
-        width: 33
-        height: 33
+        x: 462
+        y: 390
+        width: 36
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -690,20 +690,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d97adb65fca2034f81d1bab42e98648
-      internalID: 380610418
+      spriteID: c0aca032f7390bd48873e19a23b19473
+      internalID: 1116087025
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_27
+      name: Strike-Anim_27
       rect:
         serializedVersion: 2
-        x: 283
-        y: 255
-        width: 33
-        height: 33
+        x: 534
+        y: 391
+        width: 36
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -711,20 +711,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a97b9d0466a71344a9a9892ac49e4304
-      internalID: 514413546
+      spriteID: 5215789299f443b4e812f343d7c066ba
+      internalID: 1507113571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_28
+      name: Strike-Anim_28
       rect:
         serializedVersion: 2
-        x: 323
-        y: 255
-        width: 33
-        height: 33
+        x: 606
+        y: 390
+        width: 36
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -732,20 +732,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2dd5b537cc5107847abacb0f1c8e0822
-      internalID: 1389177524
+      spriteID: e1692ca90de4de14aba339b9f0230453
+      internalID: 1897984155
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_29
+      name: Strike-Anim_29
       rect:
         serializedVersion: 2
-        x: 363
-        y: 255
-        width: 33
-        height: 33
+        x: 675
+        y: 389
+        width: 21
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -753,20 +753,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc2d0cf43d08c1c4f91b1936befa81e2
-      internalID: 540082492
+      spriteID: 9dd98803efd94634d9a647368078617e
+      internalID: -1861026894
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_30
+      name: Strike-Anim_30
       rect:
         serializedVersion: 2
-        x: 3
-        y: 207
-        width: 33
-        height: 33
+        x: 22
+        y: 316
+        width: 25
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -774,20 +774,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fcf927cf8918654582f5395093d081f
-      internalID: 151497837
+      spriteID: 472b941acbb4c7746824cc5b20973e83
+      internalID: -955087644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_31
+      name: Strike-Anim_31
       rect:
         serializedVersion: 2
-        x: 43
-        y: 207
-        width: 33
-        height: 33
+        x: 93
+        y: 314
+        width: 21
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -795,20 +795,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 343feeffc278f2849be7be5d27ab705c
-      internalID: -238970484
+      spriteID: 52ff12687f96b484382ddab03fbdf3c2
+      internalID: 1716121610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_32
+      name: Strike-Anim_32
       rect:
         serializedVersion: 2
-        x: 83
-        y: 207
-        width: 33
-        height: 33
+        x: 164
+        y: 313
+        width: 21
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -816,20 +816,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34fba1192f3e38545b8494221861c640
-      internalID: 1367602773
+      spriteID: 0ac1d41d2da0ae641be871486a7d6be5
+      internalID: 469924761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_33
+      name: Strike-Anim_33
       rect:
         serializedVersion: 2
-        x: 123
-        y: 207
-        width: 33
-        height: 33
+        x: 238
+        y: 315
+        width: 21
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -837,20 +837,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6eda7514074f26948986241b7733846f
-      internalID: -1020347855
+      spriteID: 0396d353aec84e5419205b2be422a5f5
+      internalID: -782139223
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_34
+      name: Strike-Anim_34
       rect:
         serializedVersion: 2
-        x: 163
-        y: 207
-        width: 33
-        height: 33
+        x: 316
+        y: 322
+        width: 28
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -858,20 +858,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edcc416535747f640b7d4b0ce0f9c196
-      internalID: 1935100963
+      spriteID: a8c164d89f2d8f84ab928a38ba983536
+      internalID: 1235358698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_35
+      name: Strike-Anim_35
       rect:
         serializedVersion: 2
-        x: 203
-        y: 207
-        width: 33
-        height: 33
+        x: 396
+        y: 330
+        width: 28
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -879,20 +879,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 181dad7504cdb6c40bef102a882f48aa
-      internalID: -589105139
+      spriteID: bf5a3db3306e5ab428f5b573ca0c691f
+      internalID: -414665062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_36
+      name: Strike-Anim_36
       rect:
         serializedVersion: 2
-        x: 243
-        y: 207
-        width: 33
-        height: 33
+        x: 468
+        y: 331
+        width: 26
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -900,20 +900,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 709ea09a3ff8e39479a8e016ef792edc
-      internalID: -1409155731
+      spriteID: 20cf86789da93584c84b561a42c37c30
+      internalID: -1360361653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_37
+      name: Strike-Anim_37
       rect:
         serializedVersion: 2
-        x: 283
-        y: 207
-        width: 33
-        height: 33
+        x: 541
+        y: 330
+        width: 26
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -921,20 +921,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b7f921f0ae9d184a9f9f6ce32281f4f
-      internalID: 1909133857
+      spriteID: eda2c9f9166dd68479aa72541653a648
+      internalID: -734748003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_38
+      name: Strike-Anim_38
       rect:
         serializedVersion: 2
-        x: 323
-        y: 207
-        width: 33
-        height: 33
+        x: 612
+        y: 331
+        width: 26
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -942,20 +942,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f77c22877592124dbc676a9fe8311a1
-      internalID: 1550693761
+      spriteID: cfcc72d6710b0354894cfb74c3e0efe8
+      internalID: 1769464295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_39
+      name: Strike-Anim_39
       rect:
         serializedVersion: 2
-        x: 363
-        y: 207
-        width: 33
-        height: 33
+        x: 680
+        y: 324
+        width: 19
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -963,20 +963,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24c830ba8086d584184b03ef814b0cf9
-      internalID: 764407351
+      spriteID: 256c1e319ce578844a4cf515ece3465f
+      internalID: -1836479223
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_40
+      name: Strike-Anim_40
       rect:
         serializedVersion: 2
-        x: 3
-        y: 159
-        width: 33
-        height: 33
+        x: 26
+        y: 245
+        width: 19
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -984,20 +984,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d3b13e953993cf4abdebd01f1e52d81
-      internalID: -133656257
+      spriteID: a49ed6af43bd1544992cbf0be5755ac7
+      internalID: 1703494245
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_41
+      name: Strike-Anim_41
       rect:
         serializedVersion: 2
-        x: 43
-        y: 159
-        width: 33
-        height: 33
+        x: 96
+        y: 241
+        width: 21
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1005,20 +1005,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 624e2b4d567ea9b40ad9e58b0973a8f7
-      internalID: -961072525
+      spriteID: a66716bf90bb1dd4187bcddbe100ae9e
+      internalID: -1230937208
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_42
+      name: Strike-Anim_42
       rect:
         serializedVersion: 2
-        x: 83
-        y: 159
-        width: 33
-        height: 33
+        x: 168
+        y: 240
+        width: 21
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1026,20 +1026,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a127d2328ab8ac849b6ac374f4974ebe
-      internalID: -641712576
+      spriteID: 12408d49eeb4d30418c440e88e62f51c
+      internalID: -476351418
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_43
+      name: Strike-Anim_43
       rect:
         serializedVersion: 2
-        x: 123
-        y: 159
-        width: 33
-        height: 33
+        x: 240
+        y: 242
+        width: 21
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1047,20 +1047,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e920de5a8848c24bb9e819490364b3f
-      internalID: -777558975
+      spriteID: 25ddbdac660fc4047a0c5e322902e9b7
+      internalID: -664283347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_44
+      name: Strike-Anim_44
       rect:
         serializedVersion: 2
-        x: 163
-        y: 159
-        width: 33
-        height: 33
+        x: 310
+        y: 249
+        width: 26
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1068,20 +1068,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46fbceaa391d624469484f701fb64293
-      internalID: 1729656344
+      spriteID: 7d8de8e09db30d640aa5fe43cbf8db51
+      internalID: 1353066526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_45
+      name: Strike-Anim_45
       rect:
         serializedVersion: 2
-        x: 203
-        y: 159
-        width: 33
-        height: 33
+        x: 382
+        y: 256
+        width: 26
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1089,20 +1089,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51c7817fce03a824fa13a1da747d7a4d
-      internalID: -1831750215
+      spriteID: 6bf96153506c624429334cb15e775f74
+      internalID: -1214815380
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_46
+      name: Strike-Anim_46
       rect:
         serializedVersion: 2
-        x: 243
-        y: 159
-        width: 33
-        height: 33
+        x: 455
+        y: 256
+        width: 24
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1110,20 +1110,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e4103a91ed87fd4ca52a8725a45f9d4
-      internalID: -2028799485
+      spriteID: 562e9aa8ecef4124ebbe3d3db6bee62c
+      internalID: 1832414482
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_47
+      name: Strike-Anim_47
       rect:
         serializedVersion: 2
-        x: 283
-        y: 159
-        width: 33
-        height: 33
+        x: 526
+        y: 256
+        width: 24
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1131,20 +1131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ee396b0a077c5947bc416fd4d1d431c
-      internalID: -2037632635
+      spriteID: cb3a69c229576f541887f7d0d337dbd8
+      internalID: -165438234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_48
+      name: Strike-Anim_48
       rect:
         serializedVersion: 2
-        x: 323
-        y: 159
-        width: 33
-        height: 33
+        x: 599
+        y: 256
+        width: 24
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1152,20 +1152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77ea11ca016c9784b9e1df506a568f38
-      internalID: 640915538
+      spriteID: 84230f92ce5300f45abf62305e15a40c
+      internalID: -1187890184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_49
+      name: Strike-Anim_49
       rect:
         serializedVersion: 2
-        x: 363
-        y: 159
-        width: 33
-        height: 33
+        x: 671
+        y: 251
+        width: 25
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1173,20 +1173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1da2cdcc95bdf147a60cf8e24b3de16
-      internalID: 59875340
+      spriteID: 4a371a586e9e8d04eb13c040b61e1d21
+      internalID: 557847887
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_50
+      name: Strike-Anim_50
       rect:
         serializedVersion: 2
-        x: 3
-        y: 111
-        width: 33
-        height: 33
+        x: 24
+        y: 172
+        width: 25
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1194,20 +1194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88a42ac9018a3354c82ded776fdde415
-      internalID: -934463246
+      spriteID: fdafa1996df7fc2498692d2d97a26acc
+      internalID: 1015112401
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_51
+      name: Strike-Anim_51
       rect:
         serializedVersion: 2
-        x: 43
-        y: 111
-        width: 33
-        height: 33
+        x: 101
+        y: 170
+        width: 21
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1215,20 +1215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e3bbfc56614e68458294bdee8d23cc8
-      internalID: 659256322
+      spriteID: 5819bd329583aa04fb61159ae7022ab3
+      internalID: 358183717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_52
+      name: Strike-Anim_52
       rect:
         serializedVersion: 2
-        x: 83
-        y: 111
-        width: 33
-        height: 33
+        x: 174
+        y: 169
+        width: 21
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1236,20 +1236,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d006af9706a02074989bb7a62504329d
-      internalID: -393184802
+      spriteID: c49e7036bc4dbd3458232e4036984561
+      internalID: -949801163
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_53
+      name: Strike-Anim_53
       rect:
         serializedVersion: 2
-        x: 123
-        y: 111
-        width: 33
-        height: 33
+        x: 244
+        y: 171
+        width: 21
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1257,20 +1257,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9551c0436bf10df4c8157ab98e269255
-      internalID: -1176960201
+      spriteID: f575d9ba376d9b146b9c614340de848b
+      internalID: -311935206
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_54
+      name: Strike-Anim_54
       rect:
         serializedVersion: 2
-        x: 163
-        y: 111
-        width: 33
-        height: 33
+        x: 303
+        y: 178
+        width: 28
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1278,20 +1278,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8816a56da3a7ca74d9058705cff77f2b
-      internalID: 1468271799
+      spriteID: d7b43404b48239e4fa0a5e57552b00d0
+      internalID: -144952876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_55
+      name: Strike-Anim_55
       rect:
         serializedVersion: 2
-        x: 203
-        y: 111
-        width: 33
-        height: 33
+        x: 367
+        y: 186
+        width: 28
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1299,20 +1299,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c66c83e8dfc0ef47b1792468318e809
-      internalID: -1214277218
+      spriteID: 241c703c380269640bc1abe9d8231a89
+      internalID: 972112828
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_56
+      name: Strike-Anim_56
       rect:
         serializedVersion: 2
-        x: 243
-        y: 111
-        width: 33
-        height: 33
+        x: 441
+        y: 187
+        width: 26
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1320,20 +1320,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96211e053e73d5e4182e10a9d2a1a99a
-      internalID: 425085854
+      spriteID: 54d69bea70bde9444b881317d0af0ba0
+      internalID: -1479938625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_57
+      name: Strike-Anim_57
       rect:
         serializedVersion: 2
-        x: 283
-        y: 111
-        width: 33
-        height: 33
+        x: 512
+        y: 186
+        width: 26
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1341,20 +1341,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbba99dad59029243a145103661c6969
-      internalID: -2117525056
+      spriteID: 5fc4072ca1304e24eb32d7886b165dec
+      internalID: 1304779435
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_58
+      name: Strike-Anim_58
       rect:
         serializedVersion: 2
-        x: 323
-        y: 111
-        width: 33
-        height: 33
+        x: 585
+        y: 187
+        width: 26
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1362,20 +1362,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e797f36557458ed47b17731270b389f0
-      internalID: -220947769
+      spriteID: 57fa8a7cdca5934438ea68f90f38cd6e
+      internalID: -1502753357
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_59
+      name: Strike-Anim_59
       rect:
         serializedVersion: 2
-        x: 363
-        y: 111
-        width: 33
-        height: 33
+        x: 668
+        y: 180
+        width: 19
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1383,20 +1383,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65d2b91b14dde7d4abc686a035552877
-      internalID: 627441734
+      spriteID: 7d3e7a1a506578243ad902cace6ed506
+      internalID: -126242339
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_60
+      name: Strike-Anim_60
       rect:
         serializedVersion: 2
-        x: 3
-        y: 63
-        width: 33
-        height: 33
+        x: 27
+        y: 102
+        width: 19
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1404,20 +1404,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed2861641599c734ab58abfda81bd629
-      internalID: 1213723863
+      spriteID: d1e615bc2b0f56445950b838d5807edd
+      internalID: 843422031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_61
+      name: Strike-Anim_61
       rect:
         serializedVersion: 2
-        x: 43
-        y: 63
-        width: 33
-        height: 33
+        x: 102
+        y: 102
+        width: 23
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1425,20 +1425,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3168ed3d2fea23d47a142e31c43abc15
-      internalID: -455460382
+      spriteID: 7bb935adf0c67f146ad397e4f0219b39
+      internalID: -45597403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_62
+      name: Strike-Anim_62
       rect:
         serializedVersion: 2
-        x: 83
-        y: 63
-        width: 33
-        height: 33
+        x: 175
+        y: 102
+        width: 23
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1446,20 +1446,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 303324882ae045941b9bf7f7314b29ad
-      internalID: -1357680989
+      spriteID: 3571cca0bde1761459325ba8fad490cf
+      internalID: -212343302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_63
+      name: Strike-Anim_63
       rect:
         serializedVersion: 2
-        x: 123
-        y: 63
-        width: 33
-        height: 33
+        x: 246
+        y: 102
+        width: 23
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1467,20 +1467,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40695cc0557009d41b4aba942272b2dd
-      internalID: 30629134
+      spriteID: ad92a29d4d840284ebe989abe62bd44c
+      internalID: 907725470
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_64
+      name: Strike-Anim_64
       rect:
         serializedVersion: 2
-        x: 163
-        y: 63
-        width: 33
-        height: 33
+        x: 295
+        y: 103
+        width: 37
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1488,20 +1488,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 824046fb14895e74ba97f3cf03e1ccd4
-      internalID: -69007050
+      spriteID: 147d0b774c7f2b245ae38a8ce0a0a5aa
+      internalID: 311103774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_65
+      name: Strike-Anim_65
       rect:
         serializedVersion: 2
-        x: 203
-        y: 63
-        width: 33
-        height: 33
+        x: 364
+        y: 103
+        width: 37
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1509,20 +1509,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36983604e38d7a946ac613adc5cb152d
-      internalID: -838857797
+      spriteID: 8e65e48fb7d1a9b4da03feef620e2e4b
+      internalID: -1151790380
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_66
+      name: Strike-Anim_66
       rect:
         serializedVersion: 2
-        x: 243
-        y: 63
-        width: 33
-        height: 33
+        x: 437
+        y: 102
+        width: 36
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1530,20 +1530,146 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79b1753d1bc89d04b85eed99abde0d13
-      internalID: 335929791
+      spriteID: 5e546ac038c5a1a43804fe644f3eb99b
+      internalID: 31913489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_67
+      name: Strike-Anim_67
       rect:
         serializedVersion: 2
-        x: 283
-        y: 63
-        width: 33
-        height: 33
+        x: 509
+        y: 103
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f516c452815c24bb86f0076905dfbf
+      internalID: 1415818652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strike-Anim_68
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 102
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34dbbf531d46014da3152e57bf7fcd0
+      internalID: -45210095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strike-Anim_69
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 101
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb215d3067725dc478aa2628d6edd216
+      internalID: 1537884358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strike-Anim_70
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 30
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3ed297ab348f546900f378d2091748
+      internalID: -903875115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strike-Anim_71
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 34
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59919793e6741214fa324436031c6fdd
+      internalID: 1742053276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strike-Anim_72
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 35
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bff7d13ef5f0941aab9791da8f032f
+      internalID: 2014731666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strike-Anim_73
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 33
+        width: 23
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1551,20 +1677,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e17d665a4721584ab8341dcddf4a377
-      internalID: -1112075252
+      spriteID: 421ef9b0baafab640b0822149b006612
+      internalID: 1801283934
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_68
+      name: Strike-Anim_74
       rect:
         serializedVersion: 2
-        x: 323
-        y: 63
+        x: 300
+        y: 22
         width: 33
-        height: 33
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1572,20 +1698,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03217b0713e822743b409c14e579952b
-      internalID: 1473772088
+      spriteID: 0d657b9f55513f346ad95319ab22ef62
+      internalID: -552792639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_69
+      name: Strike-Anim_75
       rect:
         serializedVersion: 2
-        x: 363
-        y: 63
+        x: 364
+        y: 14
         width: 33
-        height: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b8e0626dfd68f4fb7d5d63cdeca5fb
+      internalID: -29400816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Strike-Anim_76
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 14
+        width: 32
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1593,20 +1740,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02e19680413ef4848847b8dd6237f8db
-      internalID: 1954717338
+      spriteID: 844639b1547f1d24e8225b97c66e0239
+      internalID: 1331995063
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_70
+      name: Strike-Anim_77
       rect:
         serializedVersion: 2
-        x: 3
+        x: 509
         y: 15
-        width: 33
-        height: 33
+        width: 32
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1614,20 +1761,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5725c0d7b709c44392279f6f9c888bc
-      internalID: 2072606025
+      spriteID: 738a86aca3509c54ca7fb6f44e53f35e
+      internalID: 2038744377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_71
+      name: Strike-Anim_78
       rect:
         serializedVersion: 2
-        x: 43
-        y: 15
-        width: 33
-        height: 33
+        x: 582
+        y: 14
+        width: 32
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1635,20 +1782,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 332d245b08c76cd469f49608f25afc01
-      internalID: -730162122
+      spriteID: d3cf1f3bbfde040479327ebe417e60ce
+      internalID: 374858013
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_72
+      name: Strike-Anim_79
       rect:
         serializedVersion: 2
-        x: 83
-        y: 15
-        width: 33
-        height: 33
+        x: 666
+        y: 23
+        width: 22
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1656,155 +1803,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19351eaf3886170448207376e6701978
-      internalID: -1140804812
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle-Anim_73
-      rect:
-        serializedVersion: 2
-        x: 123
-        y: 15
-        width: 33
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a111e375b37c1784f8188b7f597023cc
-      internalID: 1146315527
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle-Anim_74
-      rect:
-        serializedVersion: 2
-        x: 163
-        y: 15
-        width: 33
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51aff6d6f7fb3084984a2a09504f6182
-      internalID: 385403030
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle-Anim_75
-      rect:
-        serializedVersion: 2
-        x: 203
-        y: 15
-        width: 33
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a17759c4374d5a645ac43fcff503990e
-      internalID: 425540791
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle-Anim_76
-      rect:
-        serializedVersion: 2
-        x: 243
-        y: 15
-        width: 33
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 212aa10e1bbfd9047aad1dfef3fa8446
-      internalID: 1122741607
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle-Anim_77
-      rect:
-        serializedVersion: 2
-        x: 283
-        y: 15
-        width: 33
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b3d7dd4b59143b42b2c5416c990d5e2
-      internalID: -1721267699
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle-Anim_78
-      rect:
-        serializedVersion: 2
-        x: 323
-        y: 15
-        width: 33
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 565daa3dc37241a4d84217e02f044cf3
-      internalID: -148465770
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle-Anim_79
-      rect:
-        serializedVersion: 2
-        x: 363
-        y: 15
-        width: 33
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e5d8b6686a7979046802a669b0663f43
-      internalID: 630755621
+      spriteID: 32e5c108bd7118544a0af57da441d875
+      internalID: 844446690
       vertices: []
       indices: 
       edges: []
@@ -1820,86 +1820,86 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Idle-Anim_62: -1357680989
-      Idle-Anim_8: 1349214046
-      Idle-Anim_40: -133656257
-      Idle-Anim_65: -838857797
-      Idle-Anim_19: 1168182632
-      Idle-Anim_7: -1303845249
-      Idle-Anim_31: -238970484
-      Idle-Anim_53: -1176960201
-      Idle-Anim_59: 627441734
-      Idle-Anim_39: 764407351
-      Idle-Anim_61: -455460382
-      Idle-Anim_56: 425085854
-      Idle-Anim_48: 640915538
-      Idle-Anim_52: -393184802
-      Idle-Anim_77: -1721267699
-      Idle-Anim_23: 1423813480
-      Idle-Anim_49: 59875340
-      Idle-Anim_55: -1214277218
-      Idle-Anim_0: 891569521
-      Idle-Anim_64: -69007050
-      Idle-Anim_30: 151497837
-      Idle-Anim_1: -794848163
-      Idle-Anim_9: -610425748
-      Idle-Anim_41: -961072525
-      Idle-Anim_4: 1650114187
-      Idle-Anim_20: -533325679
-      Idle-Anim_32: 1367602773
-      Idle-Anim_12: 554925717
-      Idle-Anim_17: 1209661363
-      Idle-Anim_34: 1935100963
-      Idle-Anim_27: 514413546
-      Idle-Anim_38: 1550693761
-      Idle-Anim_69: 1954717338
-      Idle-Anim_44: 1729656344
-      Idle-Anim_33: -1020347855
-      Idle-Anim_6: -399022460
-      Idle-Anim_25: 1303260961
-      Idle-Anim_35: -589105139
-      Idle-Anim_70: 2072606025
-      Idle-Anim_11: 1655161451
-      Idle-Anim_54: 1468271799
-      Idle-Anim_66: 335929791
-      Idle-Anim_21: 1282202011
-      Idle-Anim_75: 425540791
-      Idle-Anim_79: 630755621
-      Idle-Anim_24: 745568594
-      Idle-Anim_28: 1389177524
-      Idle-Anim_57: -2117525056
-      Idle-Anim_2: -1624157276
-      Idle-Anim_50: -934463246
-      Idle-Anim_15: 1024950044
-      Idle-Anim_76: 1122741607
-      Idle-Anim_18: -1249064542
-      Idle-Anim_67: -1112075252
-      Idle-Anim_72: -1140804812
-      Idle-Anim_5: 1346418347
-      Idle-Anim_36: -1409155731
-      Idle-Anim_14: 1094333384
-      Idle-Anim_10: 1043826025
-      Idle-Anim_16: 1013212740
-      Idle-Anim_73: 1146315527
-      Idle-Anim_13: 1031350348
-      Idle-Anim_46: -2028799485
-      Idle-Anim_51: 659256322
-      Idle-Anim_42: -641712576
-      Idle-Anim_58: -220947769
-      Idle-Anim_22: -520608852
-      Idle-Anim_26: 380610418
-      Idle-Anim_74: 385403030
-      Idle-Anim_45: -1831750215
-      Idle-Anim_68: 1473772088
-      Idle-Anim_43: -777558975
-      Idle-Anim_3: -351163570
-      Idle-Anim_47: -2037632635
-      Idle-Anim_60: 1213723863
-      Idle-Anim_63: 30629134
-      Idle-Anim_71: -730162122
-      Idle-Anim_78: -148465770
-      Idle-Anim_37: 1909133857
-      Idle-Anim_29: 540082492
+      Strike-Anim_45: -1214815380
+      Strike-Anim_44: 1353066526
+      Strike-Anim_63: 907725470
+      Strike-Anim_65: -1151790380
+      Strike-Anim_7: 1168324080
+      Strike-Anim_8: -371505882
+      Strike-Anim_19: -1350884420
+      Strike-Anim_59: -126242339
+      Strike-Anim_3: 1529689892
+      Strike-Anim_62: -212343302
+      Strike-Anim_18: -1101465913
+      Strike-Anim_74: -552792639
+      Strike-Anim_64: 311103774
+      Strike-Anim_53: -311935206
+      Strike-Anim_49: 557847887
+      Strike-Anim_77: 2038744377
+      Strike-Anim_67: 1415818652
+      Strike-Anim_28: 1897984155
+      Strike-Anim_33: -782139223
+      Strike-Anim_38: 1769464295
+      Strike-Anim_43: -664283347
+      Strike-Anim_54: -144952876
+      Strike-Anim_78: 374858013
+      Strike-Anim_79: 844446690
+      Strike-Anim_70: -903875115
+      Strike-Anim_15: -1743934936
+      Strike-Anim_52: -949801163
+      Strike-Anim_69: 1537884358
+      Strike-Anim_71: 1742053276
+      Strike-Anim_76: 1331995063
+      Strike-Anim_13: 928871853
+      Strike-Anim_16: 2010828652
+      Strike-Anim_30: -955087644
+      Strike-Anim_34: 1235358698
+      Strike-Anim_17: -2112525188
+      Strike-Anim_31: 1716121610
+      Strike-Anim_40: 1703494245
+      Strike-Anim_55: 972112828
+      Strike-Anim_5: -1675681447
+      Strike-Anim_14: -1680603315
+      Strike-Anim_57: 1304779435
+      Strike-Anim_58: -1502753357
+      Strike-Anim_4: -1338870351
+      Strike-Anim_27: 1507113571
+      Strike-Anim_2: 2010487364
+      Strike-Anim_23: 422710669
+      Strike-Anim_25: -292007181
+      Strike-Anim_60: 843422031
+      Strike-Anim_0: 1743136059
+      Strike-Anim_51: 358183717
+      Strike-Anim_12: 1279006540
+      Strike-Anim_46: 1832414482
+      Strike-Anim_26: 1116087025
+      Strike-Anim_21: -1374315423
+      Strike-Anim_6: -2104928864
+      Strike-Anim_35: -414665062
+      Strike-Anim_61: -45597403
+      Strike-Anim_66: 31913489
+      Strike-Anim_22: -1190926680
+      Strike-Anim_10: 406748714
+      Strike-Anim_73: 1801283934
+      Strike-Anim_32: 469924761
+      Strike-Anim_1: 1404292300
+      Strike-Anim_41: -1230937208
+      Strike-Anim_56: -1479938625
+      Strike-Anim_39: -1836479223
+      Strike-Anim_72: 2014731666
+      Strike-Anim_42: -476351418
+      Strike-Anim_50: 1015112401
+      Strike-Anim_37: -734748003
+      Strike-Anim_47: -165438234
+      Strike-Anim_75: -29400816
+      Strike-Anim_11: -1838062987
+      Strike-Anim_68: -45210095
+      Strike-Anim_29: -1861026894
+      Strike-Anim_48: -1187890184
+      Strike-Anim_20: 585210952
+      Strike-Anim_24: 336932755
+      Strike-Anim_9: -1449359489
+      Strike-Anim_36: -1360361653
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
