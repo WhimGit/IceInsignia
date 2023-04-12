@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2280250aaab36cc47921a2d98aecc4db, type: 3}
+  m_Name: Machamp
+  m_EditorClassIdentifier: 
+  name: Machamp
+  frontSprite: {fileID: 891569521, guid: fc7cc92e60dde304bbbd3d818bb2aed9, type: 3}
+  type1: 7
+  type2: 0
+  maxHp: 160
+  moveBase: {fileID: 11400000, guid: 745fee8924ee4764f933d03ed3c0cd10, type: 2}

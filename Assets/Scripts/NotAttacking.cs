@@ -8,5 +8,6 @@ public class NotAttacking : MonoBehaviour
     {
         //WorldMovement.attacking = false;
         GetComponent<Animator>().SetBool("attacking", false);
+        GetComponent<Animator>().SetBool("moving", false);
     }
 }

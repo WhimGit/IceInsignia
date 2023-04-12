@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2280250aaab36cc47921a2d98aecc4db, type: 3}
+  m_Name: Noivern
+  m_EditorClassIdentifier: 
+  name: 
+  frontSprite: {fileID: -1869094118, guid: b4e322e02504c864c9f25fce4ef6e6b9, type: 3}
+  type1: 15
+  type2: 10
+  maxHp: 90
+  moveBase: {fileID: 11400000, guid: 8a99ed6d53b23144688b19107be7ef1f, type: 2}
