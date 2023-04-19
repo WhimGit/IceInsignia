@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 360e647cb30553e4b9bc763f0446519d, type: 3}
   m_Name: DarkestLariat
   m_EditorClassIdentifier: 
-  name: Darkest Lariat
+  moveName: Darkest Lariat
   type: 16
   power: 15
   rangeSprite: {fileID: 21300000, guid: cb175b7f12da4e143b636635a6ed4f9d, type: 3}

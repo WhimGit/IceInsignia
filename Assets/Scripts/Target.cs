@@ -10,7 +10,7 @@ public class Target : MonoBehaviour
     {
         if(other.tag == "Enemy")
         {
-            Debug.Log(other.transform.parent.name + " targeted.");
+            //Debug.Log(other.transform.parent.name + " targeted.");
             enemy = other.GetComponent<EnemyInfo>();
             hasTarget = true;
         }
@@ -20,9 +20,12 @@ public class Target : MonoBehaviour
     {
         if (other.tag == "Enemy")
         {
-            Debug.Log(other.transform.parent.name + " untargeted.");
-            hasTarget = false;
-            enemy = null;
+            if (this != null)
+            {
+                //Debug.Log(other.transform.parent.name + " untargeted.");
+                hasTarget = false;
+                enemy = null;
+            }
         }
     }
 }

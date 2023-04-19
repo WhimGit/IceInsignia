@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 360e647cb30553e4b9bc763f0446519d, type: 3}
   m_Name: DragonPulse
   m_EditorClassIdentifier: 
-  name: Dragon Pulse
+  moveName: Dragon Pulse
   type: 15
   power: 10
   rangeSprite: {fileID: 21300000, guid: b6b47b2f780c1374998133ebe83c7a17, type: 3}

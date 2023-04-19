@@ -33,13 +33,13 @@ public class MouseManager : MonoBehaviour
                             moveType.sprite = hit.GetComponent<WorldMovement>().move.TypeSprite;
 
                             hit.GetComponent<WorldMovement>().enabled = true;
-                            hit.GetComponent<WorldMovement>().targetSquare.SetActive(true);
+                            hit.GetComponent<WorldMovement>().targetSquare.GetComponent<SpriteRenderer>().enabled = true;
                             selectedPokemon = hit;
                         }
                         else if (hit.name != selectedPokemon.name && !hit.GetComponent<WorldMovement>().hasAttacked)
                         {
 
-                            selectedPokemon.GetComponent<WorldMovement>().targetSquare.SetActive(false);
+                            selectedPokemon.GetComponent<WorldMovement>().targetSquare.GetComponent<SpriteRenderer>().enabled = false;
                             selectedPokemon.GetComponent<WorldMovement>().enabled = false;
                             if (selectedPokemon.GetComponent<WorldMovement>().hasAttacked)
                             {
@@ -52,7 +52,7 @@ public class MouseManager : MonoBehaviour
                             moveType.sprite = hit.GetComponent<WorldMovement>().move.TypeSprite;
 
                             hit.GetComponent<WorldMovement>().enabled = true;
-                            hit.GetComponent<WorldMovement>().targetSquare.SetActive(true);
+                            hit.GetComponent<WorldMovement>().targetSquare.GetComponent<SpriteRenderer>().enabled = true;
                             selectedPokemon = hit;
                         }
                     }

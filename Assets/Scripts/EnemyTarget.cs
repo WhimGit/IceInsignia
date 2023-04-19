@@ -6,7 +6,11 @@ public class EnemyTarget : MonoBehaviour
 {
     public MoveBase move;
     public DamageDetails damageDets;
-    public bool reDamage = false;
+
+    public bool machampTarget = false;
+    public bool noivernTarget = false;
+    public bool azumarillTarget = false;
+    public bool bisharpTarget = false;
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -16,17 +20,55 @@ public class EnemyTarget : MonoBehaviour
             damageDets = other.GetComponent<WorldMovement>().pokemon.TakeDamage(move);
             other.GetComponent<WorldMovement>().DisplayDmg(damageDets);
             other.GetComponent<WorldMovement>().UpdateHealth();
+            switch (other.transform.name)
+            {
+                case "Machamp":
+                    machampTarget = true;
+                    break;
+
+                case "Noivern":
+                    noivernTarget = true;
+                    break;
+
+                case "Azumarill":
+                    azumarillTarget = true;
+                    break;
+
+                case "Bisharp":
+                    bisharpTarget = true;
+                    break;
+
+                default:
+                    break;
+            }
         }
     }
 
-    void OnTriggerStay2D(Collider2D other)
+    void OnTriggerExit2D(Collider2D other)
     {
-        if (reDamage)
+        if(other.tag == "Player")
         {
-            Debug.Log(other.transform.name + " targeted.");
-            damageDets = other.GetComponent<WorldMovement>().pokemon.TakeDamage(move);
-            other.GetComponent<WorldMovement>().DisplayDmg(damageDets);
-            other.GetComponent<WorldMovement>().UpdateHealth();
-        }
+            switch (other.transform.name)
+            {
+                case "Machamp":
+                    machampTarget = false;
+                    break;
+
+                case "Noivern":
+                    noivernTarget = false;
+                    break;
+
+                case "Azumarill":
+                    azumarillTarget = false;
+                    break;
+
+                case "Bisharp":
+                    bisharpTarget = false;
+                    break;
+
+                default:
+                    break;      
+            }
+        } 
     }
 }

@@ -12,10 +12,10 @@ public class WorldMovement : MonoBehaviour
 
     public bool rangedTargeting;
     public bool hasAttacked;
-    private bool moving;
+    public bool moving;
     private Vector2 userInput;
 
-    private Animator anim;
+    public Animator anim;
     public SpriteRenderer sprite;
     public Pokemon pokemon;
     public MoveBase move;
@@ -55,10 +55,11 @@ public class WorldMovement : MonoBehaviour
                     targetSquare.GetComponent<Target>().enemy.UpdateHealth();
                     if (damageDets.Fainted)
                     {
+                        turnManager.enemiesLeft--;
                         Destroy(targetSquare.GetComponent<Target>().enemy.parentObject);
                     }
                 }
-                targetSquare.SetActive(false);
+                targetSquare.GetComponent<SpriteRenderer>().enabled = false;
                 TurnManager.attacked++;
             }
 
@@ -120,7 +121,7 @@ public class WorldMovement : MonoBehaviour
         //anim.SetBool("attacking", attacking);
     }
 
-    IEnumerator Move(Vector3 targetPos)
+    public IEnumerator Move(Vector3 targetPos)
     {
         moving = true;
 
@@ -152,13 +153,44 @@ public class WorldMovement : MonoBehaviour
         if (pokemon.HP <= 0)
         {
             pokemon.HP = 0;
-            turnManager.partyMembers--;
-            Destroy(gameObject);
+            if (tag == "Player")
+                turnManager.partyMembers--;
+            else if (tag == "Enemy")
+                turnManager.enemiesLeft--;
+
+            sprite.enabled = false;
+            StartCoroutine(EmptyObj());
         }
     }
 
     public void DisplayDmg(DamageDetails details)
     {
+        switch (details.TypeEffectiveness)
+        {
+            case 0.25f:
+                effectiveness.color = Color.blue;
+                break;
+
+            case 0.5f:
+                effectiveness.color = Color.cyan;
+                break;
+
+            case 1f:
+                effectiveness.color = Color.white;
+                break;
+
+            case 2f:
+                effectiveness.color = Color.red;
+                break;
+
+            case 4f:
+                effectiveness.color = Color.magenta;
+                break;
+
+            default:
+                effectiveness.color = Color.gray;
+                break;
+        }
         effectiveness.text = "x" + details.TypeEffectiveness;
         damage.text = "-" + details.Damage;
         StartCoroutine(EmptyDmg());
@@ -166,8 +198,15 @@ public class WorldMovement : MonoBehaviour
 
     public IEnumerator EmptyDmg()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1.5f);
         effectiveness.text = "";
         damage.text = "";
+    }
+
+    public IEnumerator EmptyObj()
+    {
+        this.enabled = false;
+        yield return new WaitForSeconds(1.5f);
+        Destroy(gameObject);
     }
 }

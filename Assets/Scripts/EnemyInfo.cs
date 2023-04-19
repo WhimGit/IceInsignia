@@ -27,6 +27,32 @@ public class EnemyInfo : MonoBehaviour
 
     public void DisplayDmg(DamageDetails details)
     {
+        switch (details.TypeEffectiveness)
+        {
+            case 0.25f:
+                effectiveness.color = Color.blue;
+                break;
+
+            case 0.5f:
+                effectiveness.color = Color.cyan;
+                break;
+
+            case 1f:
+                effectiveness.color = Color.white;
+                break;
+
+            case 2f:
+                effectiveness.color = Color.red;
+                break;
+
+            case 4f:
+                effectiveness.color = Color.magenta;
+                break;
+
+            default:
+                effectiveness.color = Color.gray;
+                break;
+        }
         effectiveness.text = "x" + details.TypeEffectiveness;
         damage.text = "-" + details.Damage;
         StartCoroutine(EmptyDmg());

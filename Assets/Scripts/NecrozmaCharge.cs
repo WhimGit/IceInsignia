@@ -107,7 +107,8 @@ public class NecrozmaCharge : MonoBehaviour
                 party[selector].UpdateHealth();
                 party[selector].hasAttacked = true;
                 party[selector].sprite.color = Color.gray;
-                TurnManager.attacked++;
+                if (party[selector].pokemon.HP > 0)
+                    TurnManager.attacked++;
             }
         }
         foreach(WorldMovement member in party)

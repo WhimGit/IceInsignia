@@ -8,26 +8,25 @@ using UnityEditor;
 public class ButtonManager : MonoBehaviour
 {
     public GameObject pauseMenu;
+    public GameObject controlPanel;
+    public GameObject levelPanel;
     public GameObject rightHUD;
     public GameObject leftHUD;
+    public GameObject HUD;
     public Text leftHUDButton;
-    public Text rightHUDButton;
     public string nextScene;
-
-    void Start()
-    {
-        //SceneManager.LoadScene(nextScene);
-    }
 
     public void Pause()
     {
         Time.timeScale = 0;
+        HUD.SetActive(false);
         pauseMenu.SetActive(true);
     }
 
     public void Resume()
     {
         pauseMenu.SetActive(false);
+        HUD.SetActive(true);
         Time.timeScale = 1;
     }
 
@@ -53,29 +52,55 @@ public class ButtonManager : MonoBehaviour
         }
     }
 
-    public void SwapArrowRight()
+    public void ShowControls()
     {
-        if (rightHUDButton.text == ">")
-        {
-            rightHUDButton.text = "<";
-        }
-        else
-        {
-            rightHUDButton.text = ">";
-        }
+        pauseMenu.SetActive(false);
+        controlPanel.SetActive(true);
+    }
+
+    public void HideControls()
+    {
+        controlPanel.SetActive(false);
+        pauseMenu.SetActive(true);
+    }
+
+    public void LevelSelect()
+    {
+        pauseMenu.SetActive(false);
+        levelPanel.SetActive(true);
+    }
+
+    public void BackFromLevelSelect()
+    {
+        levelPanel.SetActive(false);
+        pauseMenu.SetActive(true);
     }
 
     public void NextScene()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(nextScene);
+    }
+
+    public void LoadLevel(int level)
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(level);
+    }
+
+    public void LoadCutscene(int cutscene)
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(cutscene+5);
+    }
+
+    public void ToMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void Quit()
     {
-#if UNITY_EDITOR
-        EditorApplication.isPlaying = false;
-#else
         Application.Quit();
-#endif
     }
 }
