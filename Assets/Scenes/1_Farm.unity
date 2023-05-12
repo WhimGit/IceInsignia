@@ -7643,7 +7643,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 5
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.972549, g: 0.95686275, b: 0, a: 0.47058824}
   m_FlipX: 0
@@ -8920,7 +8920,7 @@ MonoBehaviour:
   leftHUD: {fileID: 1622102800}
   HUD: {fileID: 639878692}
   leftHUDButton: {fileID: 1298462920}
-  nextScene: 2_Beach
+  nextScene: 2__Cutscene
 --- !u!4 &1955521348
 Transform:
   m_ObjectHideFlags: 0

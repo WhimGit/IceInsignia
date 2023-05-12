@@ -3467,7 +3467,7 @@ MonoBehaviour:
   leftHUD: {fileID: 0}
   HUD: {fileID: 0}
   leftHUDButton: {fileID: 0}
-  nextScene: 1_Farm
+  nextScene: 1__Cutscene
 --- !u!4 &1985225388
 Transform:
   m_ObjectHideFlags: 0

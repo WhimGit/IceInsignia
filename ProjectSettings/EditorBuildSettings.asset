@@ -23,4 +23,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/5_Boss Lava.unity
     guid: 5622e1e50daf6a54bb0a446dc711ea40
+  - enabled: 1
+    path: Assets/Scenes/1__Cutscene.unity
+    guid: cc19340b130cdc348948b864fda63fb1
+  - enabled: 1
+    path: Assets/Scenes/2__Cutscene.unity
+    guid: 8f96f9442d7303e44a387a387f5e7fc5
+  - enabled: 1
+    path: Assets/Scenes/3__Cutscene.unity
+    guid: 2da70c3d596a0ce468f8db699c83c358
+  - enabled: 1
+    path: Assets/Scenes/4__Cutscene.unity
+    guid: d73706c0735595f4bb06b802fa6d7e13
+  - enabled: 1
+    path: Assets/Scenes/5__Cutscene.unity
+    guid: a7a31b382cf2b3a46bd52b16edec910f
+  - enabled: 1
+    path: Assets/Scenes/6__Cutscene.unity
+    guid: afecb31742e21af42bcb7c0704aea118
   m_configObjects: {}

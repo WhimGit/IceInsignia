@@ -4020,7 +4020,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 5
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.972549, g: 0.95686275, b: 0, a: 0.47058824}
   m_FlipX: 0
@@ -4995,7 +4995,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 5
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.972549, g: 0.95686275, b: 0, a: 0.47058824}
   m_FlipX: 0
@@ -7346,7 +7346,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 5
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.972549, g: 0.95686275, b: 0, a: 0.47058824}
   m_FlipX: 0
@@ -11656,7 +11656,7 @@ MonoBehaviour:
   leftHUD: {fileID: 311592678}
   HUD: {fileID: 50385318}
   leftHUDButton: {fileID: 2136260993}
-  nextScene: 5_Boss Lava
+  nextScene: 5__Cutscene
 --- !u!4 &1736712985
 Transform:
   m_ObjectHideFlags: 0
